@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="description" content="information on Emmanuel S Akosah">
+<meta name="keywords" content="Manny,Emmanuel S Akosah,Youth,InfiniteVision">
+<meta name="author" content="Emmanuel S Akosah">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title>Manny's Bio Page</title>
+<style>
+
+body {
+    font-family:  Helvetica,Arial, sans-serif;
+    font-size: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+    /*styling for major divs */
+
+div.fullseparator {
+border-left: 6px solid green;
+background-color: lightgrey;
+border-bottom-left-radius: 6px;
+width: 90%;
+height: 30px;
+margin: auto;
+margin-top: 15px;
+margin-bottom: 15px;
+transition: width 2s;
+-webkit-transition: width 2s;   /* support for other broswers */
+}
+
+div#fullseparator:hover{
+width:30%;
+}
+
+.halfseparator{
+border-left: 6px solid green;
+background-color: lightgrey;
+border-bottom-left-radius: 6px;
+width: 100%;
+height: 30px;
+margin: auto;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+
+.tag{
+float:left;
+width: 45%;
+min-height: 200px;
+/*border : 3px solid red;*/
+font-size: 6em;
+margin: 10px 0px 0px;
+}
+
+.content{
+float : right;
+min-height: 200px;
+/*border : 3px solid red;*/
+margin:auto;
+}
+
+.footer div{
+text-align: center;
+padding:40px 0;
+}
+
+.textbox{                              /*for easy lauout of text*/
+display: inline-block;
+width: 300px;
+max-height: 300px;
+margin: 10px 10px 50px ;
+}
+
+.footer{
+clear:right;
+border-top: 6px solid green;
+background-color: lightgrey;
+border-radius: 6px;
+width: 100%;
+color:green;
+position:relative;
+    }
+
+
+    /* styling for images*/
+
+img.main{
+margin: auto;
+display: block;
+}
+
+[alt~=picture] {
+border-radius: 6px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.art{
+margin: 30px;
+float: left;
+width: 300px;
+}
+
+div.art img{
+width:100%;
+height:300px;
+border: 1px solid #777;
+border-radius: 4px;
+padding: 5px;
+}
+
+.art img:hover{
+width:350px;
+height: auto;
+border:none;
+z-index: 1;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.description{
+padding: 5px;
+text-align: center;
+font-size: 0.875em;
+}
+
+.lastimage{
+width:100%;
+height:auto;
+-webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+border-radius: 50%;
+transition: border-radius 2s,filter 2s;
+-webkit-transition: border-radius 2s,filter 2s; /* support for other broswers */
+}
+
+.lastimage:hover{
+border-radius: 30%;
+filter:none;
+-webkit-filter:none;
+    }
+
+
+     /*Links*/
+ul{
+list-style-type: none;
+}
+
+.footer ul{
+margin:0;
+position: absolute;
+top;10%;
+left: 50%;
+transform: translate(-50%, -10%);
+}
+
+li{
+float: left;
+}
+
+li a {
+display: block;
+text-decoration:none;
+padding: 5px 10px;
+}
+
+li a:hover {
+background-color: green;
+color:aliceblue;
+}
+
+
+      /*font styling*/
+
+p::first-letter {
+color: darkgreen;
+font-size: xx-large;
+}
+
+p{
+font-size: 1.5em ;
+}
+
+i{
+font-variant: small-caps;
+font-size: 1.875em;
+}
+
+</style>
+</head>
+<body>
+
+
+<img class="main" src="images/CoolTextManny%20.png" alt="Manny in fancy text">
+
+<div class="fullseparator" id="fullseparator">
+   <ul>
+      <li><a href="#aboutme">About Me</a></li>
+      <li><a href="#art">Art</a></li>
+      <li><a href="#contact">Contact</a></li>
+   </ul>
+</div>
+
+<img class="main" src="images/mesnow.jpeg" alt="picture of manny">
+
+
+
+
+<div class= "fullseparator"></div>
+
+
+
+
+<div class="tag" id="aboutme">
+    About me:
+    <div class="halfseparator"></div>
+</div>
+
+<div class= "content" >
+
+    <div class="textbox"><i>Intro:</i> <p>I am Emmanuel Sarpong Akosah, born and raised in Ghana. I study Electrical Engineering and computer Science in Dartmouth. I am a sophomore and intend to graduate in 2019.</p> </br> <i>Hobbies:</i> <p>Soccer , Arduino coding etc.</p>
+    </div>
+
+    <div class="textbox"> <i>Life Philosophies: </i>
+    <p>Fried eggs should have at least <em>three</em> vegetables, tomatoes, peppers and onions. Otherwise, to hell with it.</p>
+    <p><em>Meditation</em> is to stress as food is to hunger.</p>
+    <p>Computers are great but long live paper <em>Books!</em></p>
+    </div>
+
+    <div class="textbox"> <i>Life Goals:</i>
+    <p>Have lunch with <em>Elon Musk</em>(Role Model)</p>
+    <p>Attend <em>Lionel Messi's</em> retirement game.</p>
+    <p><em>Live Free!</em></p>
+    </div>
+
+</div>
+
+
+
+
+<div class="tag" id="art">
+    Art:
+    <div class="halfseparator"></div>
+</div>
+
+<div class= "content">
+    <p>These are my two favorite artworks.</p>
+
+    <div class="art">
+       <img src="images/koons%20play-doh.jpg" alt="play-doh, Koons">
+       <div class="description">Play-Doh,Jeff Koons</div>
+     </div>
+    <div class="art">
+       <img src="images/Pollock-Convergence.jpg" alt="convergence,Pollock">
+       <div class="description">Convergence,Jackson Pollock</div>
+    </div>
+
+
+   <p style="clear:left">I made these pieces. Proud of them!</p>
+    <div class="art">
+       <img src="images/infinitevision1.jpg" alt="Infinite Vision,Manny">
+       <div class="description">Infinite Vision,Manny</div>
+     </div>
+    <div class="art">
+       <img src="images/squareworks1.jpg" alt="Youth,Manny">
+       <div class="description">Youth,Manny</div>
+    </div>
+</div>
+
+
+
+
+<img class="lastimage" src="images/manny and friends.JPG" alt="picture of manny and friends">
+
+
+
+<div class="footer" id="contact">
+   <div> ©The Aurora Group
+       <ul>
+          <li><a href="https://www.linkedin.com/in/
+          emmanuel-a-384944a3" target="_blank"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
+          <li><a href="https://github.com/EmmanuelSAkosah" target="_blank"><i class="fa fa-github-square fa-2x" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.facebook.com/kofi.akosah.75" target="_blank"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a></li>
+           <li><a href="mailto:emmanuel.s.akosah.19@dartmouth.edu" target="_blank"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a></li>
+           <li><a href="call: 603 818 0000" target="_blank"><i class="fa fa-phone-square fa-2x" aria-hidden="true"></i></a></li>
+       </ul>
+   </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
